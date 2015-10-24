@@ -38,7 +38,7 @@ Modificada para `driver = webdriver.Chrome()`, `driver = webdriver.Opera()` ou `
 
 **empresas-demons** - Coleta as demonstrações financeiras de um período de empresas registradas na BM&amp;fBovespa a partir do *Código CVM*, fornecendo a *Conta*, a *Descrição* e os *Períodos* de cada uma.
 
-    ./empresas-demons [--cvm=<trimestre>] [--trim=<trimestre>] [--year=<ano>] [--mode=<modo>] [--out=<arquivo-de-saida>]
+    ./empresas-demons --cvm=<trimestre> [--trim=<trimestre>] [--year=<ano>] [--mode=<modo>] [--out=<arquivo-de-saida>]
 
 `--cvm=<trimestre>` (OBRIGATÓRIO) -- *Código CVM* da empresa de interesse.
 
